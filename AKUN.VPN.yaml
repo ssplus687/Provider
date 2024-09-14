@@ -1,0 +1,12 @@
+proxies:
+  - name: GRPC
+    server: gw.ruangguru.com
+    port: 443
+    type: trojan
+    password: 64518fce-3269-4409-94b1-73ad01d0f6f3
+    skip-cert-verify: true
+    sni: id3.natanvpn.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan
+    udp: true
